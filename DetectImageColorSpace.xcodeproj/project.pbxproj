@@ -17,6 +17,8 @@
 		581C4E7C1F324518002EF334 /* bw.png in Resources */ = {isa = PBXBuildFile; fileRef = 581C4E791F324518002EF334 /* bw.png */; };
 		581C4E7D1F324518002EF334 /* grayscale.png in Resources */ = {isa = PBXBuildFile; fileRef = 581C4E7A1F324518002EF334 /* grayscale.png */; };
 		581C4E7E1F324518002EF334 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 581C4E7B1F324518002EF334 /* normal.png */; };
+		58E17CED1F3B638A00C64A17 /* gray_4x4.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E17CEC1F3B638A00C64A17 /* gray_4x4.png */; };
+		58E17CEF1F3B723300C64A17 /* gray_2x1.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E17CEE1F3B723300C64A17 /* gray_2x1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		581C4E791F324518002EF334 /* bw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bw.png; sourceTree = "<group>"; };
 		581C4E7A1F324518002EF334 /* grayscale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayscale.png; sourceTree = "<group>"; };
 		581C4E7B1F324518002EF334 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		58E17CEC1F3B638A00C64A17 /* gray_4x4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_4x4.png; sourceTree = "<group>"; };
+		58E17CEE1F3B723300C64A17 /* gray_2x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_2x1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		581C4E781F324518002EF334 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				58E17CEE1F3B723300C64A17 /* gray_2x1.png */,
+				58E17CEC1F3B638A00C64A17 /* gray_4x4.png */,
 				581C4E791F324518002EF334 /* bw.png */,
 				581C4E7A1F324518002EF334 /* grayscale.png */,
 				581C4E7B1F324518002EF334 /* normal.png */,
@@ -164,6 +170,8 @@
 				581C4E6B1F3241EA002EF334 /* LaunchScreen.storyboard in Resources */,
 				581C4E7D1F324518002EF334 /* grayscale.png in Resources */,
 				581C4E681F3241EA002EF334 /* Assets.xcassets in Resources */,
+				58E17CEF1F3B723300C64A17 /* gray_2x1.png in Resources */,
+				58E17CED1F3B638A00C64A17 /* gray_4x4.png in Resources */,
 				581C4E7C1F324518002EF334 /* bw.png in Resources */,
 				581C4E661F3241EA002EF334 /* Main.storyboard in Resources */,
 			);
@@ -338,6 +346,7 @@
 				581C4E711F3241EA002EF334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

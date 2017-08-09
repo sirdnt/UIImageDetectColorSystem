@@ -78,5 +78,40 @@
     }
 }
 
+- (float)averageGrayscale {
+    CGImageRef imageRef = [self CGImage];
+    CGColorSpaceRef colorSpace = CGImageGetColorSpace(imageRef);
+    if (CGColorSpaceGetModel(colorSpace) == kCGColorSpaceModelRGB) {
+        CGDataProviderRef dataProvider = CGImageGetDataProvider(imageRef);
+        CFDataRef imageData = CGDataProviderCopyData(dataProvider);
+        const UInt8 *rawData = CFDataGetBytePtr(imageData);
+        
+        size_t width = CGImageGetWidth(imageRef);
+        size_t height = CGImageGetHeight(imageRef);
+        
+        int byteIndex = 0;
+        long total = 0;
+        long numberBytes = width*height;
+        for(int ii = 0 ; ii < numberBytes; ++ii)
+        {
+            int r = rawData[byteIndex];
+            int g = rawData[byteIndex+1];
+            int b = rawData[byteIndex+2];
+            int a = rawData[byteIndex+3];
+            NSLog(@"r g b a= (%d, %d, %d, %d)",r,g,b,a);
+            total += r;
+            byteIndex += 4;
+        }
+        CFRelease(imageData);
+        CGColorSpaceRelease(colorSpace);
+        return (float)total/(numberBytes*255);
+    } else if (CGColorSpaceGetModel(colorSpace) == kCGColorSpaceModelMonochrome){
+        CGColorSpaceRelease(colorSpace); return 0;
+    } else {
+        CGColorSpaceRelease(colorSpace); return 0;
+    }
+
+}
+
 
 @end

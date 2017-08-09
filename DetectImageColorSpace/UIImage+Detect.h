@@ -12,5 +12,6 @@
 
 - (BOOL)isGrayScale;
 - (BOOL)isBW;
+- (float)averageGrayscale;
 
 @end
