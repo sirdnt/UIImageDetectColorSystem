@@ -48,15 +48,6 @@
                                     <action selector="testNormalImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wt3-Hr-hDD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGB-SY-Zzc">
-                                <rect key="frame" x="35" y="322" width="304" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Average"/>
-                                <connections>
-                                    <action selector="testAverage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aH1-Rs-j97"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eyP-kK-PVB">
                                 <rect key="frame" x="37" y="519" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -72,6 +63,15 @@
                                 <state key="normal" title="Test UI"/>
                                 <connections>
                                     <action selector="testUI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="73V-hm-pob"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGB-SY-Zzc">
+                                <rect key="frame" x="35" y="318" width="304" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Average"/>
+                                <connections>
+                                    <action selector="testAverage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aH1-Rs-j97"/>
                                 </connections>
                             </button>
                         </subviews>

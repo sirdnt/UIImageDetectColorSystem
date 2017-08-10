@@ -99,7 +99,7 @@
             int b = rawData[byteIndex+2];
             int a = rawData[byteIndex+3];
             NSLog(@"r g b a= (%d, %d, %d, %d)",r,g,b,a);
-            total += r;
+            total += g;
             byteIndex += 4;
         }
         CFRelease(imageData);

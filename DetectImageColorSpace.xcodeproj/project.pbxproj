@@ -17,6 +17,7 @@
 		581C4E7C1F324518002EF334 /* bw.png in Resources */ = {isa = PBXBuildFile; fileRef = 581C4E791F324518002EF334 /* bw.png */; };
 		581C4E7D1F324518002EF334 /* grayscale.png in Resources */ = {isa = PBXBuildFile; fileRef = 581C4E7A1F324518002EF334 /* grayscale.png */; };
 		581C4E7E1F324518002EF334 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 581C4E7B1F324518002EF334 /* normal.png */; };
+		586A0EBF1F3CBCC100A8DBCF /* UIImage+Grayscale.m in Sources */ = {isa = PBXBuildFile; fileRef = 586A0EBE1F3CBCC100A8DBCF /* UIImage+Grayscale.m */; };
 		58E17CED1F3B638A00C64A17 /* gray_4x4.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E17CEC1F3B638A00C64A17 /* gray_4x4.png */; };
 		58E17CEF1F3B723300C64A17 /* gray_2x1.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E17CEE1F3B723300C64A17 /* gray_2x1.png */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,8 @@
 		581C4E791F324518002EF334 /* bw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bw.png; sourceTree = "<group>"; };
 		581C4E7A1F324518002EF334 /* grayscale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayscale.png; sourceTree = "<group>"; };
 		581C4E7B1F324518002EF334 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		586A0EBD1F3CBCC100A8DBCF /* UIImage+Grayscale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Grayscale.h"; sourceTree = "<group>"; };
+		586A0EBE1F3CBCC100A8DBCF /* UIImage+Grayscale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Grayscale.m"; sourceTree = "<group>"; };
 		58E17CEC1F3B638A00C64A17 /* gray_4x4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_4x4.png; sourceTree = "<group>"; };
 		58E17CEE1F3B723300C64A17 /* gray_2x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_2x1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +77,8 @@
 				581C4E781F324518002EF334 /* Resources */,
 				581C4E721F324212002EF334 /* UIImage+Detect.h */,
 				581C4E731F324212002EF334 /* UIImage+Detect.m */,
+				586A0EBD1F3CBCC100A8DBCF /* UIImage+Grayscale.h */,
+				586A0EBE1F3CBCC100A8DBCF /* UIImage+Grayscale.m */,
 				581C4E5E1F3241EA002EF334 /* AppDelegate.h */,
 				581C4E5F1F3241EA002EF334 /* AppDelegate.m */,
 				581C4E611F3241EA002EF334 /* ViewController.h */,
@@ -187,6 +192,7 @@
 				581C4E741F324212002EF334 /* UIImage+Detect.m in Sources */,
 				581C4E631F3241EA002EF334 /* ViewController.m in Sources */,
 				581C4E601F3241EA002EF334 /* AppDelegate.m in Sources */,
+				586A0EBF1F3CBCC100A8DBCF /* UIImage+Grayscale.m in Sources */,
 				581C4E5D1F3241EA002EF334 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
